@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <title>Metronic "Asentus" Frontend Freebie</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- THEME STYLES -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico"/>
+
+    <!-- Custom CSS -->
+    <style>
+        .navbar-nav .dropdown:hover > .dropdown-menu {
+            display: block; /* Mouse üzerine gelindiğinde alt menüyü göster */
+            margin-top: 0; /* Varsayılan boşluğu kaldır */
+        }
+        .dropdown-menu {
+            animation: fadeIn 0.3s ease-in-out; /* Animasyon eklendi */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="index.html">
+                            <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                            <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="navbar-nav navbar-nav-right">
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Ana sayfa</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="about.html" class="nav-item-child nav-item-hover dropdown-toggle" role="button" aria-expanded="false">
+                                    hakkında <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="about.html#mission">Misyonumuz</a></li> <!-- id="mission" -->
+                                    <li><a href="about.html#vision">Vizyonumuz</a></li> <!-- id="vision" -->
+                                    <li><a href="about.html#Ekip">Ekibimiz</a></li> <!-- id="vision" -->
+
+                                </ul>
+                            </li>
+                            <!-- Dropdown Menu for Products -->
+                            <li class="nav-item dropdown">
+                                <a href="products.html" class="nav-item-child nav-item-hover dropdown-toggle" role="button" aria-expanded="false">
+                                    projelerimiz <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="urun1.html">Hastanemiz</a></li>
+                                    <li><a href="urun2.html">Tersanemiz</a></li>
+                                    <li><a href="urun3.html">Rezidanslarımız</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a href="faq.html" class="nav-item-child nav-item-hover dropdown-toggle" role="button" aria-expanded="false">
+                                    duyurular <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="duyuru1.html">Yeni Projelerimiz</a></li>
+                                    <li><a href="duyuru2.html">Ödüllerimiz</a></li>
+                                    <li><a href="duyuru3.html">İşe alımlarımız</a></li>
+                                    <li><a href="duyuru4.html">Etkinlikler</a></li>
+                                    <li><a href="duyuru5.html">Şirket Haberleri</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">iletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== PARALLAX ==========-->
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="parallax-content container">
+                <h1 class="carousel-title">Projelerimiz</h1>
+                <p>Her yerleşim ve bina alanında yaptığımız projelerimizi görebilir ve inceleyebilirsiniz </p>
+            </div>
+        </div>
+        <!--========== PARALLAX ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Our Exceptional Solutions -->
+        <div class="content-lg container">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>İnovatif Projeler</h2>
+                    <p>Gelecek odaklı projelerimizle birlikte çevre dostu ve depreme dayanıklı yapılarımzı aşağıdaki kısımlardan inceleyebilirsiniz</p>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row margin-b-50">
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <a href="urun1.html">
+                            <img  class="img-responsive"  src="img/hastane.png" alt="Our Exceptional Solutions Image">
+                        </a>
+                        </div>
+                        
+                    </div>
+                    <h3><a href="urun1.html">Hastanemiz</a> <span class="text-uppercase margin-l-20"></span></h3>
+                    <p>2019 yılında sanki gelecekten gelmiş gibi olan hastanemizi incelemek için tıklayınız</p>
+                    <a class="link" href="urun1.html">Read More</a>
+                </div>
+                <!-- End Our Exceptional Solutions -->
+
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <a href="urun2.html">
+                            <img class="img-responsive" src="img/tersane.png" alt="Our Exceptional Solutions Image">
+                        </a>
+                        </div>
+                    </div>
+                    <h4><a href="urun2.html">Tersanemiz</a> <span class="text-uppercase margin-l-20"></span></h4>
+                    <p>Tersane projemiz, Gemiler ve çalışanlar için yenilikçi ve konforlu bir ortam sunmayı hedefler.</p>
+                    <a class="link" href="urun2.html">Read More</a>
+                </div>
+                <!-- End Our Exceptional Solutions -->
+
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <a href="urun3.html">
+                            <img class="img-responsive" src="img/rezidans.png" alt="Our Exceptional Solutions Image">
+                        </a>
+                        </div>
+                    </div>
+                    <h4><a href="urun3.html">Rezidanslarımız</a> <span class="text-uppercase margin-l-20"></span></h4>
+                    <p>Modern yaşamın tüm ihtiyaçlarını karşılayacak şekilde tasarlanan rezidans projemiz, konfor, estetik ve teknolojiyi bir araya getiriyor. Şehrin kalbinde yer alan bu proje, hem huzurlu bir yaşam alanı hem de prestijli bir yatırım fırsatı sunuyor.</p>
+                    <a class="link" href="urun3.html">Read More</a>
+                </div>
+                <!-- End Our Exceptional Solutions -->
+            </div>
+            <!--// end row -->
+
+         
+        </div>
+        <!-- End Our Exceptional Solutions -->
+
+       
+
+        <!-- Promo Section -->
+        <div class="promo-section overflow-h">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="ver-center">
+                        <div class="ver-center-aligned">
+                            <div class="promo-section-col">
+                                <h2>Müşterilerimiz
+                                </h2>
+                                <p>Bizim için müşteri memnuniyeti, başarının en önemli ölçütüdür. Geniş sektör deneyimimiz ve kaliteli hizmet anlayışımızla, bireysel ve kurumsal müşterilerimizin güvenini kazanmış olmanın gururunu yaşıyoruz.</p>
+                                <p>Çeşitlilik: Portföyümüzde bireysel ev sahiplerinden, büyük yatırım şirketlerine kadar geniş bir müşteri yelpazesi bulunuyor. <br>
+                                    Uzun Süreli İşbirlikleri: İlişkilerimizi sadece bir iş ortaklığı olarak değil, uzun vadeli bir yolculuk olarak görüyoruz. <br>
+                                    Teşekkürler: Gücümüzü ve motivasyonumuzu sizden alıyoruz. Bizimle bu yolculuğu paylaşan tüm müşterilerimize teşekkür ederiz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-section-img-right">
+                <img class="img-responsive" src="img/970x970/01.jpg" alt="Content Image">
+            </div>
+        </div>
+        <!-- End Promo Section -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div class="footer-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-sm-2 sm-margin-b-50">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="index.html">Ana sayfa</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="about.html">hakkında</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="products.html">projelerimiz</a></li>
+                                
+                                
+                                
+                                <li class="footer-list-item"><a class="footer-list-link" href="contact.html">iletişim</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="faq.html">Duyurular</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="chart.html">İstatistikler</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-5 sm-margin-b-30">
+                            <h2 class="color-white">Send Us A Note</h2>
+                            <input type="text" id="name" class="form-control footer-input margin-b-20" placeholder="Name" required>
+                            <input type="email" id="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
+                            <input type="text" id="phone" class="form-control footer-input margin-b-20" placeholder="Phone" required>
+                            <textarea id="message" class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
+                            <button type="button" onclick="sendEmail()" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script>
+            function sendEmail() {
+                // Form verilerini al
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var phone = document.getElementById('phone').value;
+                var message = document.getElementById('message').value;
+        
+                // Boş alan kontrolü
+                if (!name || !email || !phone || !message) {
+                    alert("Lütfen tüm alanları doldurun.");
+                    return;
+                }
+        
+                // `mailto` bağlantısını oluştur
+                var mailtoLink = `mailto:kerem.unal2004@gmail.com?subject=Contact Form Message&body=Ad Soyad: ${name}%0D%0AE-posta: ${email}%0D%0ATelefon: ${phone}%0D%0AMesaj:%0D%0A${message}`;
+        
+                // Kullanıcıyı `mailto` bağlantısına yönlendir
+                window.location.href = mailtoLink;
+            }
+        </script>
+
+    </body>
+    <!-- END BODY -->
+</html>
