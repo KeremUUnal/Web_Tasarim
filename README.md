@@ -20,8 +20,11 @@ Bu web sitesi, mimarlık sektöründeki diğer web sitelerinden farklılaşarak 
 ## Teknolojiler
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [Kullanılan backend teknolojisi belirtilmelidir]
-- **Diğer Araçlar:** [Eğer spesifik kütüphane ya da araçlar kullanıldıysa buraya eklenebilir]
+
+
+
+
+
 
 
 
